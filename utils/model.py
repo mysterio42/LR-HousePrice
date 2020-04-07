@@ -43,6 +43,7 @@ def train_model(features, labels):
     mse = mean_squared_error(features, labels)
     print(f'MSE {math.sqrt(mse)}')
     print(f'R^2 value: {model.score(features, labels)}')
+    print(f'b_0: {model.coef_[0][0]} \nb_1: {model.intercept_[0]}')
 
     ans = input('Do you want to save the model weight? ')
     if ans in ('yes', '1'):

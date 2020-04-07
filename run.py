@@ -28,6 +28,7 @@ def parse_args():
 if __name__ == '__main__':
     np.random.seed(0)
     args = parse_args()
+
     data = load_data('data/house_prices.csv')
     features = prepare_data(data, ('sqft_living', 'price'))
     x, y = to_array(features)
