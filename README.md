@@ -26,11 +26,12 @@ Do you want to save the model weight? yes
 Model saved at weights/LinReg-ymj3r.pkl
 ```
 
-![figure_1.png](figures/Figure_1.png)
+![Figure_1.png](figures/Figure_1.png)
 
 
 ## Conclusion
 ```text
 R squared value  is very low !!!
+It measures how strong relationship is between sqft_living and price
 We're not able to find linear relationship between the size and price of the house 
 ```
